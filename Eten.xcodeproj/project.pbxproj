@@ -13,9 +13,26 @@
 		859450CF201D1FF400DBC726 /* Eten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 859450CD201D1FF400DBC726 /* Eten.xcdatamodeld */; };
 		859450D1201D1FF400DBC726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859450D0201D1FF400DBC726 /* Assets.xcassets */; };
 		859450D4201D1FF400DBC726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859450D2201D1FF400DBC726 /* LaunchScreen.storyboard */; };
+		85D63113201D2DC20063AC38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85D63112201D2DC20063AC38 /* GoogleService-Info.plist */; };
+		85D63115201D30D60063AC38 /* food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 85D63114201D30D60063AC38 /* food.jpeg */; };
+		85D63117201D35C20063AC38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63116201D35C20063AC38 /* LoginViewController.swift */; };
+		85D63119201D35CF0063AC38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63118201D35CF0063AC38 /* SignUpViewController.swift */; };
+		85D6311C201D3F4D0063AC38 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6311B201D3F4D0063AC38 /* User.swift */; };
+		85D6311E201D3F6F0063AC38 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6311D201D3F6F0063AC38 /* Business.swift */; };
+		85D63120201D854F0063AC38 /* background.mov in Resources */ = {isa = PBXBuildFile; fileRef = 85D6311F201D854F0063AC38 /* background.mov */; };
+		85D63122201D8A050063AC38 /* mainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63121201D8A050063AC38 /* mainFeedViewController.swift */; };
+		85D63124201D8A3F0063AC38 /* WalletFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63123201D8A3F0063AC38 /* WalletFeedViewController.swift */; };
+		85D63126201D90F70063AC38 /* elon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85D63125201D90F70063AC38 /* elon.jpg */; };
+		85D63128201D92B00063AC38 /* eten_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D63127201D92B00063AC38 /* eten_logo.png */; };
+		85D6312A201D92DC0063AC38 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D63129201D92DB0063AC38 /* Icon-App-29x29@2x.png */; };
+		85D6312C201D92ED0063AC38 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6312B201D92ED0063AC38 /* Icon-App-29x29@2x.png */; };
+		85D6312E201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6312D201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift */; };
+		9FB5763D0A5A2DAB2F60EF3A /* Pods_Eten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D4E5A2B3650E794C03D1 /* Pods_Eten.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0056D4E5A2B3650E794C03D1 /* Pods_Eten.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eten.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80144619EA865337921BBD8D /* Pods-Eten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eten.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eten/Pods-Eten.release.xcconfig"; sourceTree = "<group>"; };
 		859450C3201D1FF400DBC726 /* Eten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859450C6201D1FF400DBC726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859450C8201D1FF400DBC726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,21 @@
 		859450D0201D1FF400DBC726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859450D3201D1FF400DBC726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859450D5201D1FF400DBC726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D63112201D2DC20063AC38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85D63114201D30D60063AC38 /* food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = food.jpeg; path = ../../../../food.jpeg; sourceTree = "<group>"; };
+		85D63116201D35C20063AC38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		85D63118201D35CF0063AC38 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		85D6311B201D3F4D0063AC38 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		85D6311D201D3F6F0063AC38 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		85D6311F201D854F0063AC38 /* background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = background.mov; path = ../../../../background.mov; sourceTree = "<group>"; };
+		85D63121201D8A050063AC38 /* mainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainFeedViewController.swift; sourceTree = "<group>"; };
+		85D63123201D8A3F0063AC38 /* WalletFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletFeedViewController.swift; sourceTree = "<group>"; };
+		85D63125201D90F70063AC38 /* elon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elon.jpg; path = ../../../../elon.jpg; sourceTree = "<group>"; };
+		85D63127201D92B00063AC38 /* eten_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eten_logo.png; path = ../../../../../Downloads/eten_logo.png; sourceTree = "<group>"; };
+		85D63129201D92DB0063AC38 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "../../../../../Downloads/list green/ios/AppIcon.appiconset/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		85D6312B201D92ED0063AC38 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "../../../../../Downloads/list grey/ios/AppIcon.appiconset/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		85D6312D201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateriesMainFeedTableViewCell.swift; sourceTree = "<group>"; };
+		B4BC80B15BF3D309F0170422 /* Pods-Eten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eten.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eten/Pods-Eten.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB5763D0A5A2DAB2F60EF3A /* Pods_Eten.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		703127CAAB266AE23D2A5210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0056D4E5A2B3650E794C03D1 /* Pods_Eten.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		859450BA201D1FF400DBC726 = {
 			isa = PBXGroup;
 			children = (
 				859450C5201D1FF400DBC726 /* Eten */,
 				859450C4201D1FF400DBC726 /* Products */,
+				B43AD03E6E696E21549E6E55 /* Pods */,
+				703127CAAB266AE23D2A5210 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,46 @@
 		859450C5201D1FF400DBC726 /* Eten */ = {
 			isa = PBXGroup;
 			children = (
+				85D6311A201D3EF50063AC38 /* models */,
 				859450C6201D1FF400DBC726 /* AppDelegate.swift */,
 				859450C8201D1FF400DBC726 /* ViewController.swift */,
+				85D63116201D35C20063AC38 /* LoginViewController.swift */,
+				85D63118201D35CF0063AC38 /* SignUpViewController.swift */,
+				85D63121201D8A050063AC38 /* mainFeedViewController.swift */,
+				85D63123201D8A3F0063AC38 /* WalletFeedViewController.swift */,
+				85D6312D201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift */,
 				859450CA201D1FF400DBC726 /* Main.storyboard */,
 				859450D0201D1FF400DBC726 /* Assets.xcassets */,
 				859450D2201D1FF400DBC726 /* LaunchScreen.storyboard */,
 				859450D5201D1FF400DBC726 /* Info.plist */,
 				859450CD201D1FF400DBC726 /* Eten.xcdatamodeld */,
+				85D63112201D2DC20063AC38 /* GoogleService-Info.plist */,
+				85D63114201D30D60063AC38 /* food.jpeg */,
+				85D63125201D90F70063AC38 /* elon.jpg */,
+				85D63127201D92B00063AC38 /* eten_logo.png */,
+				85D63129201D92DB0063AC38 /* Icon-App-29x29@2x.png */,
+				85D6312B201D92ED0063AC38 /* Icon-App-29x29@2x.png */,
+				85D6311F201D854F0063AC38 /* background.mov */,
 			);
 			path = Eten;
+			sourceTree = "<group>";
+		};
+		85D6311A201D3EF50063AC38 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				85D6311B201D3F4D0063AC38 /* User.swift */,
+				85D6311D201D3F6F0063AC38 /* Business.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B43AD03E6E696E21549E6E55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC80B15BF3D309F0170422 /* Pods-Eten.debug.xcconfig */,
+				80144619EA865337921BBD8D /* Pods-Eten.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 859450D8201D1FF400DBC726 /* Build configuration list for PBXNativeTarget "Eten" */;
 			buildPhases = (
+				06A9AC352FED8A3B29C8DECC /* [CP] Check Pods Manifest.lock */,
 				859450BF201D1FF400DBC726 /* Sources */,
 				859450C0201D1FF400DBC726 /* Frameworks */,
 				859450C1201D1FF400DBC726 /* Resources */,
+				97C07184BCA8DB403FEB14CA /* [CP] Embed Pods Frameworks */,
+				F3858A621AD09457B56FD9B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,22 +203,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D6312C201D92ED0063AC38 /* Icon-App-29x29@2x.png in Resources */,
+				85D63126201D90F70063AC38 /* elon.jpg in Resources */,
+				85D63115201D30D60063AC38 /* food.jpeg in Resources */,
 				859450D4201D1FF400DBC726 /* LaunchScreen.storyboard in Resources */,
+				85D63120201D854F0063AC38 /* background.mov in Resources */,
+				85D63128201D92B00063AC38 /* eten_logo.png in Resources */,
+				85D63113201D2DC20063AC38 /* GoogleService-Info.plist in Resources */,
 				859450D1201D1FF400DBC726 /* Assets.xcassets in Resources */,
 				859450CC201D1FF400DBC726 /* Main.storyboard in Resources */,
+				85D6312A201D92DC0063AC38 /* Icon-App-29x29@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A9AC352FED8A3B29C8DECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eten-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C07184BCA8DB403FEB14CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eten/Pods-Eten-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CircleSlider/CircleSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eten/Pods-Eten-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3858A621AD09457B56FD9B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eten/Pods-Eten-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		859450BF201D1FF400DBC726 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D63124201D8A3F0063AC38 /* WalletFeedViewController.swift in Sources */,
+				85D63117201D35C20063AC38 /* LoginViewController.swift in Sources */,
+				85D6311E201D3F6F0063AC38 /* Business.swift in Sources */,
 				859450CF201D1FF400DBC726 /* Eten.xcdatamodeld in Sources */,
+				85D6312E201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift in Sources */,
+				85D6311C201D3F4D0063AC38 /* User.swift in Sources */,
 				859450C9201D1FF400DBC726 /* ViewController.swift in Sources */,
 				859450C7201D1FF400DBC726 /* AppDelegate.swift in Sources */,
+				85D63119201D35CF0063AC38 /* SignUpViewController.swift in Sources */,
+				85D63122201D8A050063AC38 /* mainFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +429,7 @@
 		};
 		859450D9201D1FF400DBC726 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BC80B15BF3D309F0170422 /* Pods-Eten.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +445,7 @@
 		};
 		859450DA201D1FF400DBC726 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80144619EA865337921BBD8D /* Pods-Eten.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
