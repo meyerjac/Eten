@@ -17,10 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let videoURL: NSURL = Bundle.main.url(forResource: "back1", withExtension: "mov")! as NSURL
+
         
-        let theURL = Bundle.main.url(forResource:"background", withExtension: "mov")
-        
-        avPlayer = AVPlayer(url: theURL!)
+        avPlayer = AVPlayer(url: videoURL as URL)
         avPlayerLayer = AVPlayerLayer(player: avPlayer)
         avPlayerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
         avPlayer.volume = 0

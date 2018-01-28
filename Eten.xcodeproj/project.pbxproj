@@ -13,19 +13,37 @@
 		859450CF201D1FF400DBC726 /* Eten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 859450CD201D1FF400DBC726 /* Eten.xcdatamodeld */; };
 		859450D1201D1FF400DBC726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859450D0201D1FF400DBC726 /* Assets.xcassets */; };
 		859450D4201D1FF400DBC726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859450D2201D1FF400DBC726 /* LaunchScreen.storyboard */; };
+		85B72DDC201E44FD001E913B /* green_wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DDB201E44FC001E913B /* green_wallet.png */; };
+		85B72DDE201E450F001E913B /* green_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DDD201E450F001E913B /* green_profile.png */; };
+		85B72DE0201E451E001E913B /* green_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DDF201E451E001E913B /* green_map.png */; };
+		85B72DED201E54E9001E913B /* work_sizzle_pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DE3201E54E8001E913B /* work_sizzle_pie.jpg */; };
+		85B72DEE201E54E9001E913B /* cafe_yum.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DE4201E54E8001E913B /* cafe_yum.png */; };
+		85B72DEF201E54E9001E913B /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DE5201E54E8001E913B /* bar.jpg */; };
+		85B72DF0201E54E9001E913B /* mezza.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DE6201E54E8001E913B /* mezza.png */; };
+		85B72DF1201E54E9001E913B /* pho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DE7201E54E8001E913B /* pho.jpg */; };
+		85B72DF2201E54E9001E913B /* tracktownpizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DE8201E54E9001E913B /* tracktownpizza.jpg */; };
+		85B72DF3201E54E9001E913B /* poppis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DE9201E54E9001E913B /* poppis.jpg */; };
+		85B72DF4201E54E9001E913B /* cafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DEA201E54E9001E913B /* cafe.jpg */; };
+		85B72DF5201E54E9001E913B /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DEB201E54E9001E913B /* sushi.png */; };
+		85B72DF6201E54E9001E913B /* chipotle.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72DEC201E54E9001E913B /* chipotle.png */; };
+		85B72E0E201E5DEC001E913B /* eten_final.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E0D201E5DEB001E913B /* eten_final.png */; };
+		85B72E10201E5EC7001E913B /* back.mov in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E0F201E5EC7001E913B /* back.mov */; };
+		85B72E12201E60A7001E913B /* back1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E11201E60A7001E913B /* back1.mov */; };
+		85B72E17201E61F6001E913B /* grey_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E13201E61F6001E913B /* grey_camera.png */; };
+		85B72E18201E61F6001E913B /* grey_wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E14201E61F6001E913B /* grey_wallet.png */; };
+		85B72E19201E61F6001E913B /* grey_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E15201E61F6001E913B /* grey_world.png */; };
+		85B72E1A201E61F6001E913B /* grey_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E16201E61F6001E913B /* grey_profile.png */; };
+		85B72E1C201E6539001E913B /* list_green@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B72E1B201E6539001E913B /* list_green@3x.png */; };
+		85B72E1E201E687B001E913B /* ProfileUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B72E1D201E687B001E913B /* ProfileUIViewController.swift */; };
+		85B72E20201E6899001E913B /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B72E1F201E6899001E913B /* WalletViewController.swift */; };
+		85B72E22201E68D6001E913B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B72E21201E68D6001E913B /* MapViewController.swift */; };
 		85D63113201D2DC20063AC38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85D63112201D2DC20063AC38 /* GoogleService-Info.plist */; };
-		85D63115201D30D60063AC38 /* food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 85D63114201D30D60063AC38 /* food.jpeg */; };
 		85D63117201D35C20063AC38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63116201D35C20063AC38 /* LoginViewController.swift */; };
 		85D63119201D35CF0063AC38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63118201D35CF0063AC38 /* SignUpViewController.swift */; };
 		85D6311C201D3F4D0063AC38 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6311B201D3F4D0063AC38 /* User.swift */; };
 		85D6311E201D3F6F0063AC38 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6311D201D3F6F0063AC38 /* Business.swift */; };
-		85D63120201D854F0063AC38 /* background.mov in Resources */ = {isa = PBXBuildFile; fileRef = 85D6311F201D854F0063AC38 /* background.mov */; };
 		85D63122201D8A050063AC38 /* mainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63121201D8A050063AC38 /* mainFeedViewController.swift */; };
 		85D63124201D8A3F0063AC38 /* WalletFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D63123201D8A3F0063AC38 /* WalletFeedViewController.swift */; };
-		85D63126201D90F70063AC38 /* elon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85D63125201D90F70063AC38 /* elon.jpg */; };
-		85D63128201D92B00063AC38 /* eten_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D63127201D92B00063AC38 /* eten_logo.png */; };
-		85D6312A201D92DC0063AC38 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D63129201D92DB0063AC38 /* Icon-App-29x29@2x.png */; };
-		85D6312C201D92ED0063AC38 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6312B201D92ED0063AC38 /* Icon-App-29x29@2x.png */; };
 		85D6312E201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D6312D201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift */; };
 		9FB5763D0A5A2DAB2F60EF3A /* Pods_Eten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D4E5A2B3650E794C03D1 /* Pods_Eten.framework */; };
 /* End PBXBuildFile section */
@@ -41,19 +59,47 @@
 		859450D0201D1FF400DBC726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859450D3201D1FF400DBC726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859450D5201D1FF400DBC726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B72DD8201E44C7001E913B /* green_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_camera.png; sourceTree = "<group>"; };
+		85B72DDA201E44C7001E913B /* grey_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_list.png; sourceTree = "<group>"; };
+		85B72DDB201E44FC001E913B /* green_wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_wallet.png; path = "../../../../../../Downloads/wallet green/ios/AppIcon.appiconset/green_wallet.png"; sourceTree = "<group>"; };
+		85B72DDD201E450F001E913B /* green_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_profile.png; path = "../../../../../../Downloads/profile green/ios/AppIcon.appiconset/green_profile.png"; sourceTree = "<group>"; };
+		85B72DDF201E451E001E913B /* green_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_map.png; path = "../../../../../../Downloads/map green/ios/AppIcon.appiconset/green_map.png"; sourceTree = "<group>"; };
+		85B72DE3201E54E8001E913B /* work_sizzle_pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = work_sizzle_pie.jpg; path = ../../../../../work_sizzle_pie.jpg; sourceTree = "<group>"; };
+		85B72DE4201E54E8001E913B /* cafe_yum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cafe_yum.png; path = ../../../../../cafe_yum.png; sourceTree = "<group>"; };
+		85B72DE5201E54E8001E913B /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bar.jpg; path = ../../../../../bar.jpg; sourceTree = "<group>"; };
+		85B72DE6201E54E8001E913B /* mezza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mezza.png; path = ../../../../../mezza.png; sourceTree = "<group>"; };
+		85B72DE7201E54E8001E913B /* pho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pho.jpg; path = ../../../../../pho.jpg; sourceTree = "<group>"; };
+		85B72DE8201E54E9001E913B /* tracktownpizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tracktownpizza.jpg; path = ../../../../../tracktownpizza.jpg; sourceTree = "<group>"; };
+		85B72DE9201E54E9001E913B /* poppis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = poppis.jpg; path = ../../../../../poppis.jpg; sourceTree = "<group>"; };
+		85B72DEA201E54E9001E913B /* cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cafe.jpg; path = ../../../../../cafe.jpg; sourceTree = "<group>"; };
+		85B72DEB201E54E9001E913B /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sushi.png; path = ../../../../../sushi.png; sourceTree = "<group>"; };
+		85B72DEC201E54E9001E913B /* chipotle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chipotle.png; path = ../../../../../chipotle.png; sourceTree = "<group>"; };
+		85B72DFB201E5BA5001E913B /* back0.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = back0.mov; sourceTree = "<group>"; };
+		85B72DFD201E5BB3001E913B /* green_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_camera.png; path = "../../../../../../Downloads/camera green/ios/AppIcon.appiconset/green_camera.png"; sourceTree = "<group>"; };
+		85B72E00201E5BB4001E913B /* grey_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_list.png; path = "../../../../../../Downloads/list grey/ios/AppIcon.appiconset/grey_list.png"; sourceTree = "<group>"; };
+		85B72E01201E5BB4001E913B /* background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = background.mov; sourceTree = "<group>"; };
+		85B72E03201E5BB5001E913B /* green_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_list.png; path = "../../../../../../Downloads/list green/ios/AppIcon.appiconset/green_list.png"; sourceTree = "<group>"; };
+		85B72E05201E5BD2001E913B /* green_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_camera.png; path = "../../../../../../Downloads/camera green/ios/AppIcon.appiconset/green_camera.png"; sourceTree = "<group>"; };
+		85B72E08201E5BD2001E913B /* grey_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_list.png; path = "../../../../../../Downloads/list grey/ios/AppIcon.appiconset/grey_list.png"; sourceTree = "<group>"; };
+		85B72E0A201E5BD2001E913B /* green_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_list.png; path = "../../../../../../Downloads/list green/ios/AppIcon.appiconset/green_list.png"; sourceTree = "<group>"; };
+		85B72E0D201E5DEB001E913B /* eten_final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eten_final.png; path = ../../../../../Downloads/eten_final.png; sourceTree = "<group>"; };
+		85B72E0F201E5EC7001E913B /* back.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = back.mov; path = ../../../../back.mov; sourceTree = "<group>"; };
+		85B72E11201E60A7001E913B /* back1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = back1.mov; path = ../../../../back1.mov; sourceTree = "<group>"; };
+		85B72E13201E61F6001E913B /* grey_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_camera.png; path = "../../../../../../Downloads/camera icon grey (1)/ios/AppIcon.appiconset/grey_camera.png"; sourceTree = "<group>"; };
+		85B72E14201E61F6001E913B /* grey_wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_wallet.png; path = "../../../../../../Downloads/wallet icon grey (1)/ios/AppIcon.appiconset/grey_wallet.png"; sourceTree = "<group>"; };
+		85B72E15201E61F6001E913B /* grey_world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_world.png; path = "../../../../../../Downloads/map icon grey (1)/ios/AppIcon.appiconset/grey_world.png"; sourceTree = "<group>"; };
+		85B72E16201E61F6001E913B /* grey_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grey_profile.png; path = "../../../../../../Downloads/profile icon grey (1)/ios/AppIcon.appiconset/grey_profile.png"; sourceTree = "<group>"; };
+		85B72E1B201E6539001E913B /* list_green@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list_green@3x.png"; path = "../../../../../../Downloads/list green (1)/ios/AppIcon.appiconset/list_green@3x.png"; sourceTree = "<group>"; };
+		85B72E1D201E687B001E913B /* ProfileUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIViewController.swift; sourceTree = "<group>"; };
+		85B72E1F201E6899001E913B /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		85B72E21201E68D6001E913B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		85D63112201D2DC20063AC38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		85D63114201D30D60063AC38 /* food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = food.jpeg; path = ../../../../food.jpeg; sourceTree = "<group>"; };
 		85D63116201D35C20063AC38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		85D63118201D35CF0063AC38 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		85D6311B201D3F4D0063AC38 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		85D6311D201D3F6F0063AC38 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
-		85D6311F201D854F0063AC38 /* background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = background.mov; path = ../../../../background.mov; sourceTree = "<group>"; };
 		85D63121201D8A050063AC38 /* mainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainFeedViewController.swift; sourceTree = "<group>"; };
 		85D63123201D8A3F0063AC38 /* WalletFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletFeedViewController.swift; sourceTree = "<group>"; };
-		85D63125201D90F70063AC38 /* elon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elon.jpg; path = ../../../../elon.jpg; sourceTree = "<group>"; };
-		85D63127201D92B00063AC38 /* eten_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eten_logo.png; path = ../../../../../Downloads/eten_logo.png; sourceTree = "<group>"; };
-		85D63129201D92DB0063AC38 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "../../../../../Downloads/list green/ios/AppIcon.appiconset/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
-		85D6312B201D92ED0063AC38 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "../../../../../Downloads/list grey/ios/AppIcon.appiconset/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
 		85D6312D201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateriesMainFeedTableViewCell.swift; sourceTree = "<group>"; };
 		B4BC80B15BF3D309F0170422 /* Pods-Eten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eten.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eten/Pods-Eten.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,27 +146,63 @@
 			isa = PBXGroup;
 			children = (
 				85D6311A201D3EF50063AC38 /* models */,
+				85B72DD6201E44B0001E913B /* tab_bar_nd_other_icons */,
 				859450C6201D1FF400DBC726 /* AppDelegate.swift */,
 				859450C8201D1FF400DBC726 /* ViewController.swift */,
 				85D63116201D35C20063AC38 /* LoginViewController.swift */,
 				85D63118201D35CF0063AC38 /* SignUpViewController.swift */,
 				85D63121201D8A050063AC38 /* mainFeedViewController.swift */,
+				85B72E1F201E6899001E913B /* WalletViewController.swift */,
 				85D63123201D8A3F0063AC38 /* WalletFeedViewController.swift */,
+				85B72E1D201E687B001E913B /* ProfileUIViewController.swift */,
 				85D6312D201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift */,
+				85B72E21201E68D6001E913B /* MapViewController.swift */,
 				859450CA201D1FF400DBC726 /* Main.storyboard */,
 				859450D0201D1FF400DBC726 /* Assets.xcassets */,
 				859450D2201D1FF400DBC726 /* LaunchScreen.storyboard */,
 				859450D5201D1FF400DBC726 /* Info.plist */,
 				859450CD201D1FF400DBC726 /* Eten.xcdatamodeld */,
 				85D63112201D2DC20063AC38 /* GoogleService-Info.plist */,
-				85D63114201D30D60063AC38 /* food.jpeg */,
-				85D63125201D90F70063AC38 /* elon.jpg */,
-				85D63127201D92B00063AC38 /* eten_logo.png */,
-				85D63129201D92DB0063AC38 /* Icon-App-29x29@2x.png */,
-				85D6312B201D92ED0063AC38 /* Icon-App-29x29@2x.png */,
-				85D6311F201D854F0063AC38 /* background.mov */,
+				85B72E0D201E5DEB001E913B /* eten_final.png */,
+				85B72E11201E60A7001E913B /* back1.mov */,
+				85B72DFB201E5BA5001E913B /* back0.mov */,
+				85B72E0F201E5EC7001E913B /* back.mov */,
 			);
 			path = Eten;
+			sourceTree = "<group>";
+		};
+		85B72DD6201E44B0001E913B /* tab_bar_nd_other_icons */ = {
+			isa = PBXGroup;
+			children = (
+				85B72E05201E5BD2001E913B /* green_camera.png */,
+				85B72E16201E61F6001E913B /* grey_profile.png */,
+				85B72E15201E61F6001E913B /* grey_world.png */,
+				85B72E14201E61F6001E913B /* grey_wallet.png */,
+				85B72E13201E61F6001E913B /* grey_camera.png */,
+				85B72E08201E5BD2001E913B /* grey_list.png */,
+				85B72E1B201E6539001E913B /* list_green@3x.png */,
+				85B72E0A201E5BD2001E913B /* green_list.png */,
+				85B72DE5201E54E8001E913B /* bar.jpg */,
+				85B72DE4201E54E8001E913B /* cafe_yum.png */,
+				85B72DEA201E54E9001E913B /* cafe.jpg */,
+				85B72DEC201E54E9001E913B /* chipotle.png */,
+				85B72DE6201E54E8001E913B /* mezza.png */,
+				85B72DE7201E54E8001E913B /* pho.jpg */,
+				85B72DE9201E54E9001E913B /* poppis.jpg */,
+				85B72DEB201E54E9001E913B /* sushi.png */,
+				85B72DE8201E54E9001E913B /* tracktownpizza.jpg */,
+				85B72DE3201E54E8001E913B /* work_sizzle_pie.jpg */,
+				85B72DD8201E44C7001E913B /* green_camera.png */,
+				85B72DDA201E44C7001E913B /* grey_list.png */,
+				85B72DDD201E450F001E913B /* green_profile.png */,
+				85B72DDF201E451E001E913B /* green_map.png */,
+				85B72DDB201E44FC001E913B /* green_wallet.png */,
+				85B72DFD201E5BB3001E913B /* green_camera.png */,
+				85B72E00201E5BB4001E913B /* grey_list.png */,
+				85B72E03201E5BB5001E913B /* green_list.png */,
+				85B72E01201E5BB4001E913B /* background.mov */,
+			);
+			path = tab_bar_nd_other_icons;
 			sourceTree = "<group>";
 		};
 		85D6311A201D3EF50063AC38 /* models */ = {
@@ -203,16 +285,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D6312C201D92ED0063AC38 /* Icon-App-29x29@2x.png in Resources */,
-				85D63126201D90F70063AC38 /* elon.jpg in Resources */,
-				85D63115201D30D60063AC38 /* food.jpeg in Resources */,
+				85B72DF2201E54E9001E913B /* tracktownpizza.jpg in Resources */,
+				85B72DEF201E54E9001E913B /* bar.jpg in Resources */,
+				85B72E17201E61F6001E913B /* grey_camera.png in Resources */,
+				85B72DF4201E54E9001E913B /* cafe.jpg in Resources */,
+				85B72DF3201E54E9001E913B /* poppis.jpg in Resources */,
+				85B72E1A201E61F6001E913B /* grey_profile.png in Resources */,
+				85B72DED201E54E9001E913B /* work_sizzle_pie.jpg in Resources */,
+				85B72E10201E5EC7001E913B /* back.mov in Resources */,
 				859450D4201D1FF400DBC726 /* LaunchScreen.storyboard in Resources */,
-				85D63120201D854F0063AC38 /* background.mov in Resources */,
-				85D63128201D92B00063AC38 /* eten_logo.png in Resources */,
+				85B72DF6201E54E9001E913B /* chipotle.png in Resources */,
+				85B72DF0201E54E9001E913B /* mezza.png in Resources */,
+				85B72E0E201E5DEC001E913B /* eten_final.png in Resources */,
+				85B72DDE201E450F001E913B /* green_profile.png in Resources */,
+				85B72E12201E60A7001E913B /* back1.mov in Resources */,
 				85D63113201D2DC20063AC38 /* GoogleService-Info.plist in Resources */,
+				85B72DF1201E54E9001E913B /* pho.jpg in Resources */,
+				85B72E19201E61F6001E913B /* grey_world.png in Resources */,
+				85B72E18201E61F6001E913B /* grey_wallet.png in Resources */,
+				85B72DE0201E451E001E913B /* green_map.png in Resources */,
 				859450D1201D1FF400DBC726 /* Assets.xcassets in Resources */,
+				85B72E1C201E6539001E913B /* list_green@3x.png in Resources */,
 				859450CC201D1FF400DBC726 /* Main.storyboard in Resources */,
-				85D6312A201D92DC0063AC38 /* Icon-App-29x29@2x.png in Resources */,
+				85B72DEE201E54E9001E913B /* cafe_yum.png in Resources */,
+				85B72DDC201E44FD001E913B /* green_wallet.png in Resources */,
+				85B72DF5201E54E9001E913B /* sushi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,17 +341,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Eten/Pods-Eten-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CircleSlider/CircleSlider.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleSlider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -290,10 +387,13 @@
 				85D6311E201D3F6F0063AC38 /* Business.swift in Sources */,
 				859450CF201D1FF400DBC726 /* Eten.xcdatamodeld in Sources */,
 				85D6312E201DC96A0063AC38 /* eateriesMainFeedTableViewCell.swift in Sources */,
+				85B72E20201E6899001E913B /* WalletViewController.swift in Sources */,
+				85B72E22201E68D6001E913B /* MapViewController.swift in Sources */,
 				85D6311C201D3F4D0063AC38 /* User.swift in Sources */,
 				859450C9201D1FF400DBC726 /* ViewController.swift in Sources */,
 				859450C7201D1FF400DBC726 /* AppDelegate.swift in Sources */,
 				85D63119201D35CF0063AC38 /* SignUpViewController.swift in Sources */,
+				85B72E1E201E687B001E913B /* ProfileUIViewController.swift in Sources */,
 				85D63122201D8A050063AC38 /* mainFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

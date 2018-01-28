@@ -75,21 +75,20 @@ class SignUpViewController: UIViewController {
     
     func handleCreateUserAccount() {
         print("handle Create Account")
+//
+//        var ref: DatabaseReference!
+//        ref = Database.database().reference()
+//
+//        let userInfo = Auth.auth().currentUser
+//        let uid = userInfo?.uid
+//
+//        let emptyArray = [String]()
+//        
+//        let newUser = User(name: "", profilePic: "", reviews: emptyArray)
+//
+//        ref.child("users").child(uid!).setValue(newUser.toAnyObject())
         
-        var ref: DatabaseReference!
-        
-        ref = Database.database().reference()
-        
-        let userInfo = Auth.auth().currentUser
-        let uid = userInfo?.uid
-        
-        let emptyArray = [String]()
-        
-        let newUser = User(name: "", profilePic: "", reviews: emptyArray)
-        
-        ref.child("users").child(uid!).setValue(newUser.toAnyObject())
-        
-        self.performSegue(withIdentifier: "SignUpToMain", sender: nil)
+        self.performSegue(withIdentifier: "toMain", sender: nil)
     }
     
     func handleCreateBusinessAccount() {

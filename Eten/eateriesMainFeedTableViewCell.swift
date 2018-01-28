@@ -11,10 +11,7 @@ import UIKit
 class eateriesMainFeedTableViewCell: UITableViewCell {
     @IBOutlet weak var BusinessProfileImage: UIImageView!
     @IBOutlet weak var BusinessName: UILabel!
-    @IBOutlet weak var firstSliderView: UIView!
     
-    
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
