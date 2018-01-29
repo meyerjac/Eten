@@ -2,12 +2,17 @@ import UIKit
 
 class mainFeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet var images: [UIButton]!
+    
     var selectedIndex: Int = 0
     
-//    @IBOutlet var buttons: [UIImage]!
+    var TabSelectedImagesName = ["listg.png","green_wallet.png", "camg.png", "green_profile.png", "green_map.png"]
+    
+    var TabUnSelectedImagesName = ["grey_list.png","grey_wallet.png","grey_camera.png",  "grey_profile.png", "grey_map.png"]
     
     var ProfileViewController: UIViewController!
     var WalletViewController: UIViewController!
+    var CameraViewController: UIViewController!
     var MapViewController: UIViewController!
 
     var viewControllers: [UIViewController]!
@@ -16,13 +21,42 @@ class mainFeedViewController: UIViewController, UITableViewDelegate, UITableView
     
     let restaurantListImages = ["chipotle.png", "sushi.png", "bar.jpg", "cafe_yum.png", "poppis.jpg", "pho.jpg", "cafe.jpg", "mezza.png", "work_sizzle_pie.jpg", "tracktownpizza.jpg"]
     
-    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//
+//        MapViewController = storyboard.instantiateViewController(withIdentifier: "Map")
+//        WalletViewController = storyboard.instantiateViewController(withIdentifier: "Wallet")
+//        ProfileViewController = storyboard.instantiateViewController(withIdentifier: "Profile")
+//        CameraViewController = storyboard.instantiateViewController(withIdentifier: "Camera")
+//
+//        viewControllers = [MapViewController, WalletViewController , CameraViewController, ProfileViewController]
+        
+        images[selectedIndex].isSelected = true
+        didPressTab(images[selectedIndex])
+        
     }
+    
+    
+    @IBAction func didPressTab(_ sender: UIButton) {
+
+            let bgImage = UIImage(named: TabSelectedImagesName[sender.tag])
+            sender.setImage(bgImage, for: .selected)
+            sender.isSelected = true
+        
+        
+       
+        let previousIndex = selectedIndex
+        selectedIndex = sender.tag
+        images[previousIndex].isSelected = false
+    }
+    
+    
+    
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
@@ -40,6 +74,9 @@ class mainFeedViewController: UIViewController, UITableViewDelegate, UITableView
         print(1)
             Cell.BusinessProfileImage.image = UIImage(named: restaurantListImages[indexPath.row])
         print(2)
+        
+        
+        
         
             return Cell
         }
